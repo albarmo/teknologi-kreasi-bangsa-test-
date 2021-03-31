@@ -1,38 +1,68 @@
 .App {
   text-align: center;
+  min-width: 100vh;
+  height: auto;
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "HkBold";
+  src: url("./fonts/hk-grotesk/HKGrotesk-Black.otf");
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: "HkBoldlegacy";
+  src: url("./fonts/hk-grotesk/HKGrotesk-Medium.otf");
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1,
+h2,
+h3 {
+  font-family: "HkBold", sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  font-size: 104px !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+  font-size: 64px;
+  font-family: "HkBoldlegacy";
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+.subtitle {
+  font-size: 24px;
+}
+
+.body-large {
+  font-size: 20px;
+}
+
+.body-reguler {
+  font-size: 16px;
+}
+
+.body-small {
+  font-size: 14px;
+}
+
+.black {
+  color: #101010;
+}
+
+.red {
+  color: #ca171e;
+}
+
+.base {
+  color: #ffffff;
+}
+
+.bold {
+  font-weight: bold;
 }

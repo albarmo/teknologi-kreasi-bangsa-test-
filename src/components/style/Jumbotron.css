@@ -1,0 +1,57 @@
+.jumbotron {
+  background-image: url("../../images/v502_724.png");
+  background-size: cover;
+  background-position-y: -200px;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 40%;
+}
+
+.jumbotron-text {
+  width: 70%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.jumbotron-text h1 {
+  font-style: italic;
+  width: 70%;
+  line-height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* slider slick */
+.container {
+  width: 100vh;
+  margin: 5%;
+}
+
+.slick-slide {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.slick-slide img {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+.slick-list {
+  margin: 0 -10px;
+}
+
+.slick-slide *:focus {
+  outline: none;
+}

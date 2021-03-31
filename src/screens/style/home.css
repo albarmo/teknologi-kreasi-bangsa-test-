@@ -1,0 +1,42 @@
+.text {
+  text-align: justify;
+  width: 100%;
+}
+
+.signature {
+  width: 30%;
+  text-align: left;
+}
+
+.signature-image {
+  margin-top: 50px;
+  width: 30%;
+  text-align: left;
+}
+.signature-image img {
+  width: 100%;
+  text-align: left;
+  object-fit: cover;
+  margin-left: -80px;
+  height: 50px;
+}
+
+.heading-products {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  text-align: left;
+}
+.button-red {
+  background-color: red;
+  padding: 10px;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  border: #ca171e 2px solid;
+  color: #ca171e;
+  cursor: pointer;
+  background: none;
+}
