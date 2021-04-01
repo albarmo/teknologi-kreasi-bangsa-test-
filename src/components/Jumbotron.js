@@ -8,7 +8,7 @@ const Jumbotron = () => {
       <div className="jumbotron">
         <div className="jumbotron-text base">
           <h1>
-            28 MILION<br></br>COMUNITY
+            28 MILLION<br></br>COMMUNITY
           </h1>
           <Button text="LETS WORK WITH US" />
         </div>

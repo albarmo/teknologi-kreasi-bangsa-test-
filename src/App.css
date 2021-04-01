@@ -3,6 +3,7 @@
   min-width: 100vh;
   height: auto;
   overflow: hidden;
+  background-color: #ffffff;
 }
 
 @font-face {
@@ -43,7 +44,7 @@ h3 {
   font-size: 20px;
 }
 
-.body-reguler {
+.body-regular {
   font-size: 16px;
 }
 
@@ -65,4 +66,23 @@ h3 {
 
 .bold {
   font-weight: bold;
+}
+.bolder {
+  font-weight: bolder;
+  font-family: "HkBold", sans-serif;
+}
+
+.left {
+  text-align: left;
+}
+
+.button-red {
+  padding: 10px;
+  width: auto;
+  height: 40px;
+  border-radius: 5px;
+  border: #ca171e 2px solid;
+  color: #ca171e;
+  cursor: pointer;
+  background: none;
 }

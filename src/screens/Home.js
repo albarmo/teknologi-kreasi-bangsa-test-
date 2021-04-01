@@ -1,12 +1,29 @@
-import React, { useEffect, useState } from "react";
-import { Button, Jumbotron } from "../components";
+import "semantic-ui-css/semantic.min.css";
+import React, { Component } from "react";
+import {
+  CardProduct,
+  Jumbotron,
+  SliderFluid,
+  CardRectangle,
+  Footer,
+  Products,
+  Services,
+  OurWorks,
+  Clients,
+} from "../components";
 import { Container, Divider } from "semantic-ui-react";
 import "./style/home.css";
-import "semantic-ui-css/semantic.min.css";
-
+import { Grid, Image } from "semantic-ui-react";
 import signature from "../images/v502_1719.png";
+import Slider from "infinite-react-carousel";
 
 const Home = () => {
+  var settings1 = {
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
   return (
     <>
       <Jumbotron key="1" />
@@ -34,6 +51,43 @@ const Home = () => {
         </section>
         <Divider />
       </Container>
+
+      <Products />
+
+      <div className="container-fluid">
+        <h1>WHAT MAKE US DIFFERENT </h1>
+        <h1>WHAT MAKE US DIFFERENT </h1>
+      </div>
+
+      <Container>
+        <Divider />
+        <Divider />
+      </Container>
+
+      <SliderFluid />
+      <Services />
+
+      <Container>
+        <Divider />
+        <Divider />
+      </Container>
+
+      <OurWorks />
+
+      <Clients />
+
+      <Container>
+        <div className="project">
+          <p>Lets Create </p>
+          <section className="underline">
+            <p>Creative Project</p>
+            <p className="shape"></p>
+          </section>
+        </div>
+        <button className="button-red bold">START PROJECT WITH US</button>
+      </Container>
+
+      <Footer />
     </>
   );
 };

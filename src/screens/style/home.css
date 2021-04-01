@@ -21,22 +21,83 @@
   height: 50px;
 }
 
-.heading-products {
-  display: flex;
-  justify-content: space-between;
-}
-
 .box {
   text-align: left;
 }
-.button-red {
-  background-color: red;
-  padding: 10px;
-  width: 100px;
-  height: 40px;
-  border-radius: 5px;
-  border: #ca171e 2px solid;
-  color: #ca171e;
-  cursor: pointer;
-  background: none;
+
+.card-container {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px 10px;
+  grid-template-areas:
+    ". . ."
+    ". . ."
+    ". . .";
+}
+
+.container-fluid {
+  width: 170%;
+  text-align: left;
+  font-style: italic;
+  overflow: hidden;
+  display: inline-flex;
+  padding: 0px;
+  margin: 0px;
+}
+.container-fluid h1 {
+  display: inline;
+  width: 100%;
+  text-align: left;
+  font-style: italic;
+  padding: 0px;
+  margin: 0px;
+}
+
+.container-slider {
+  width: 100%;
+  height: 600px;
+}
+
+.slick-slide {
+  height: 320px;
+  box-sizing: border-box;
+}
+
+.slick-slide img {
+  height: 100% !important;
+  width: 100%;
+  border: 2.5px solid white;
+  box-sizing: border-box;
+}
+
+.client-container {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.project {
+  font-style: italic;
+  font-size: 3rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+
+.underline {
+  font-style: italic;
+  height: 50px;
+  font-weight: 900 !important;
+  font-family: "HkBold", sans-serif;
+}
+
+.shape {
+  background-color: #fcd300;
+  margin-top: -70px;
+  width: 320px !important;
+  height: 20px !important;
+  width: inherit;
+  margin-left: 20px;
 }

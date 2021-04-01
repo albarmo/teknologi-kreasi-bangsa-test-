@@ -1,2 +1,11 @@
 export { default as Button } from "./Button";
 export { default as Jumbotron } from "./Jumbotron";
+export { default as CardProduct } from "./CardProduct";
+export { default as CardSlider } from "./CardSlider";
+export { default as CardRectangle } from "./CardRectangle";
+export { default as Footer } from "./Footer";
+export { default as Products } from "./Products";
+export { default as SliderFluid } from "./SliderFluid";
+export { default as Services } from "./Services";
+export { default as OurWorks } from "./OurWorks";
+export { default as Clients } from "./Clients";

@@ -20,6 +20,7 @@
 }
 
 .jumbotron-text h1 {
+  font-family: "HkBold", sans-serif;
   font-style: italic;
   width: 70%;
   line-height: 100%;
