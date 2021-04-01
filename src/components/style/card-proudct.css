@@ -19,3 +19,19 @@
   padding-bottom: 20px;
   text-align: left;
 }
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 90%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .card-box {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+  }
+}

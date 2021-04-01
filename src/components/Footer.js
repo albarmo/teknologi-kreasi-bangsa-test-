@@ -18,7 +18,7 @@ const Footer = () => {
           <p className="body-regular left bolder base">
             UNITED CREATIVE HEAD OFFICE
           </p>
-          <p className="body-small left ">
+          <p className="body-small left">
             Wisma Bali United, Jalan Panjang No.29 Kedoya Selatan, Jakarta Barat
             (021) 12345678
           </p>

@@ -86,3 +86,52 @@ h3 {
   cursor: pointer;
   background: none;
 }
+
+@media only screen and (max-width: 600px) {
+  .App {
+    text-align: center;
+    min-width: 100%;
+    height: auto !important;
+    overflow: hidden;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: "HkBold", sans-serif;
+  }
+
+  h1 {
+    font-size: 40px !important;
+  }
+
+  h2 {
+    font-size: 34px;
+    font-family: "HkBoldlegacy";
+    font-weight: normal;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .body-large {
+    font-size: 16px;
+  }
+
+  .body-regular {
+    font-size: 14px;
+  }
+
+  .body-small {
+    font-size: 12px;
+  }
+}
